@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Chrome Extension",
+    "description": "Chrome Extension ..."
+  },
+  "extDesc": {
+    "message": "Chrome Extension Framework",
+    "description": "Chrome Extension Framework, Just for simple."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "content",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,css,scss,md}'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
+  }
+}
