@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"default_locale": "en_US",
+	"name": "__MSG_extName__",
+	"version": "1.0.0",
+	"description": "__MSG_extDesc__",
+	"icons":  {},
+	"host_permissions": ["<all_urls>"],
+	"action": {
+		"default_popup": "./popup/index.html",
+		"default_title": ""
+	},
+	"permissions": ["downloads"],
+	"content_security_policy": {
+		"extension_pages": "script-src 'self'; object-src 'self';"
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Jump",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r run build && vite build --config vite.config.ts",
+    "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format"
+  },
+  "dependencies": {
+    "eslint": "^9.5.0",
+    "fs-extra": "^11.2.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1",
+    "vite-plugin-static-copy": "^1.0.5"
+  }
+}
